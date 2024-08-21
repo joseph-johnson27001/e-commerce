@@ -1,7 +1,8 @@
+<!-- layouts/default.vue -->
 <template>
   <div>
     <Header />
-    <main>
+    <main class="container p-4 min-h-screen">
       <Nuxt />
     </main>
     <Footer />
@@ -20,4 +21,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+/* Global layout styles */
+</style>

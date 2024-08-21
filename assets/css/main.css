@@ -1,0 +1,36 @@
+/* assets/css/main.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+
+/* Text and Elements */
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+    gap: 1rem;
+}
