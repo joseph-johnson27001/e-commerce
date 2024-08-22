@@ -1,13 +1,18 @@
-<!-- components/ProductShowcase.vue -->
 <template>
   <section class="product-showcase container">
-    <h2>Featured Products</h2>
-    <div class="grid grid-cols-3 gap-4">
-      <div class="product-card" v-for="product in products" :key="product.id">
-        <img :src="product.image" :alt="product.name" />
-        <h3>{{ product.name }}</h3>
-        <p>£{{ product.price }}</p>
-        <button class="add-to-cart">Add to Cart</button>
+    <h2 class="text-xl font-semibold mb-4">Featured Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div
+        class="product-card bg-gray-200 p-4 rounded"
+        v-for="product in products"
+        :key="product.id"
+      >
+        <img :src="product.image" :alt="product.name" class="mb-2" />
+        <h3 class="text-lg font-semibold">{{ product.name }}</h3>
+        <p class="text-gray-700 mb-2">${{ product.price }}</p>
+        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded">
+          Add to Cart
+        </button>
       </div>
     </div>
   </section>
@@ -15,6 +20,7 @@
 
 <script>
 export default {
+  name: "ProductShowcase",
   data() {
     return {
       products: [
@@ -36,6 +42,42 @@ export default {
           price: 19.99,
           image: "/images/product3.jpg",
         },
+        {
+          id: 4,
+          name: "Product 4",
+          price: 49.99,
+          image: "/images/product4.jpg",
+        },
+        {
+          id: 5,
+          name: "Product 5",
+          price: 59.99,
+          image: "/images/product5.jpg",
+        },
+        {
+          id: 6,
+          name: "Product 6",
+          price: 24.99,
+          image: "/images/product6.jpg",
+        },
+        {
+          id: 7,
+          name: "Product 7",
+          price: 34.99,
+          image: "/images/product7.jpg",
+        },
+        {
+          id: 8,
+          name: "Product 8",
+          price: 44.99,
+          image: "/images/product8.jpg",
+        },
+        {
+          id: 9,
+          name: "Product 9",
+          price: 54.99,
+          image: "/images/product9.jpg",
+        },
       ],
     };
   },
@@ -47,10 +89,9 @@ export default {
   padding: 2rem 0;
 }
 
-.product-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  text-align: center;
+.product-card img {
+  width: 100%;
+  height: auto;
 }
 
 .add-to-cart {
