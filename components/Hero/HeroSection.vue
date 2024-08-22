@@ -24,6 +24,6 @@ export default {
 
 <style scoped>
 .hero-section {
-  background-image: url("https://via.placeholder.com/1600x600"); /* Replace with your image */
+  background-image: url("https://via.placeholder.com/1600x600");
 }
 </style>
