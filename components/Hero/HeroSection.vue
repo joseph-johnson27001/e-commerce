@@ -24,6 +24,10 @@ export default {
 
 <style scoped>
 .hero-section {
-  background-image: url("https://via.placeholder.com/1600x600");
+  background-image: url("/images/your-image.jpg");
+  background-color: #4a90e2;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 </style>

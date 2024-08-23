@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <HeroSection />
     <main>
+      <HeroSection />
       <Nuxt />
     </main>
     <Footer />
