@@ -3,24 +3,38 @@
     <h2 class="text-xl font-semibold mb-4">Featured Products</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
       <div
-        class="product-card bg-gray-200 p-4 rounded"
-        v-for="product in products"
+        class="product-card bg-gray-200 p-4 rounded cursor-pointer"
+        v-for="(product, index) in products"
         :key="product.id"
+        @click="openModal(index)"
       >
         <img :src="product.image" :alt="product.name" class="mb-2" />
         <h3 class="text-lg font-semibold">{{ product.name }}</h3>
         <p class="text-gray-700 mb-2">${{ product.price }}</p>
-        <button class="add-to-cart bg-blue-500 text-white px-4 py-2 rounded">
-          Add to Cart
-        </button>
       </div>
     </div>
+
+    <!-- Product Modal -->
+    <ProductModal
+      v-if="isModalOpen"
+      :product="currentProduct"
+      :isOpen="isModalOpen"
+      :currentProductIndex="currentProductIndex"
+      :products="products"
+      @close="closeModal"
+      @update-product="updateProductIndex"
+    />
   </section>
 </template>
 
 <script>
+import ProductModal from "~/components/ProductModal.vue";
+
 export default {
   name: "ProductShowcase",
+  components: {
+    ProductModal,
+  },
   data() {
     return {
       products: [
@@ -79,7 +93,26 @@ export default {
           image: "/images/product9.jpg",
         },
       ],
+      isModalOpen: false,
+      currentProductIndex: 0,
     };
+  },
+  computed: {
+    currentProduct() {
+      return this.products[this.currentProductIndex];
+    },
+  },
+  methods: {
+    openModal(index) {
+      this.currentProductIndex = index;
+      this.isModalOpen = true;
+    },
+    closeModal() {
+      this.isModalOpen = false;
+    },
+    updateProductIndex(newIndex) {
+      this.currentProductIndex = newIndex;
+    },
   },
 };
 </script>
@@ -92,17 +125,5 @@ export default {
 .product-card img {
   width: 100%;
   height: auto;
-}
-
-.add-to-cart {
-  background-color: #333;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-}
-
-.add-to-cart:hover {
-  background-color: #555;
 }
 </style>
