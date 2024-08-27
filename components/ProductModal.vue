@@ -86,8 +86,9 @@ export default {
   padding: 2rem;
   border-radius: 0.5rem;
   position: relative;
-  max-width: 90%;
+  max-width: 1200px;
   max-height: 90%;
   overflow-y: auto;
+  width: 90%;
 }
 </style>
