@@ -8,15 +8,30 @@
     >
       <button
         @click="closeModal"
-        class="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+        class="absolute top-2 right-2 text-gray-700 hover:text-white bg-gray-300 hover:bg-gray-600 rounded-full w-8 h-8 flex items-center justify-center"
       >
         &times;
       </button>
+
+      <!-- Main Product Image -->
       <img
-        :src="product.image"
+        :src="currentImage"
         :alt="product.name"
         class="mb-4 w-full h-64 object-cover"
       />
+
+      <!-- Thumbnails -->
+      <div class="thumbnails flex justify-center mb-4 space-x-2">
+        <img
+          v-for="(image, index) in product.images"
+          :key="index"
+          :src="image"
+          :alt="'Thumbnail ' + index"
+          class="w-16 h-16 object-cover cursor-pointer border-2 border-gray-300 hover:border-blue-500"
+          @click="setImage(index)"
+        />
+      </div>
+
       <h3 class="text-2xl font-semibold mb-2">{{ product.name }}</h3>
       <p class="text-xl text-gray-700 mb-4">${{ product.price }}</p>
       <p class="text-gray-600">{{ product.description }}</p>
@@ -46,6 +61,16 @@ export default {
     currentProductIndex: Number,
     products: Array,
   },
+  data() {
+    return {
+      currentImageIndex: 0,
+    };
+  },
+  computed: {
+    currentImage() {
+      return this.product.images[this.currentImageIndex];
+    },
+  },
   methods: {
     closeModal() {
       this.$emit("close");
@@ -56,6 +81,7 @@ export default {
           ? this.currentProductIndex - 1
           : this.products.length - 1;
       this.$emit("update-product", newIndex);
+      this.resetImageIndex();
     },
     nextProduct() {
       let newIndex =
@@ -63,6 +89,13 @@ export default {
           ? this.currentProductIndex + 1
           : 0;
       this.$emit("update-product", newIndex);
+      this.resetImageIndex();
+    },
+    setImage(index) {
+      this.currentImageIndex = index;
+    },
+    resetImageIndex() {
+      this.currentImageIndex = 0;
     },
   },
 };
@@ -90,5 +123,9 @@ export default {
   max-height: 90%;
   overflow-y: auto;
   width: 90%;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 </style>
