@@ -10,10 +10,10 @@ body {
 }
 
 main {
-    border: 1px solid #ccc;
     background-color: white;
+    border: 1px solid #ccc;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1200px;
     border-top: none;
 }
 

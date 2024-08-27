@@ -119,7 +119,7 @@ export default {
   padding: 2rem;
   border-radius: 0.5rem;
   position: relative;
-  max-width: 1200px;
+  max-width: 1000px;
   max-height: 90%;
   overflow-y: auto;
   width: 90%;
