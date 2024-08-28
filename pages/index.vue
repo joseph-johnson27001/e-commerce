@@ -1,16 +1,19 @@
 <template>
   <div class="container">
+    <HeroSection />
     <ProductShowcase />
   </div>
 </template>
 
 <script>
 import ProductShowcase from "~/components/ProductShowcase.vue";
+import HeroSection from "~/components/Hero/HeroSection.vue";
 
 export default {
   name: "IndexPage",
   components: {
     ProductShowcase,
+    HeroSection,
   },
 };
 </script>
