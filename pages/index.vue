@@ -1,7 +1,11 @@
 <template>
-  <div class="container">
-    <HeroSection />
-    <ProductShowcase />
+  <div>
+    <div class="hero-container">
+      <HeroSection />
+    </div>
+    <div class="container">
+      <ProductShowcase />
+    </div>
   </div>
 </template>
 
