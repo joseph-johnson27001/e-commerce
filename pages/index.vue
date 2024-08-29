@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="hero-container">
-      <HeroSection />
-    </div>
     <div class="container">
       <ProductShowcase />
     </div>

@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .hero-section {
-  background-image: url("/images/space.jpg");
+  background-image: url("/images/abstract.jpg");
   background-color: #4a90e2;
   background-size: cover;
   background-position: center;

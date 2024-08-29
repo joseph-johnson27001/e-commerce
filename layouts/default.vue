@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <HeroSection />
     <main>
       <Nuxt />
     </main>
@@ -11,6 +12,7 @@
 <script>
 import Header from "~/components/Header.vue";
 import Footer from "~/components/Footer.vue";
+import HeroSection from "~/components/Hero/HeroSection.vue";
 
 export default {
   components: {
