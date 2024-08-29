@@ -1,6 +1,8 @@
 <template>
   <section class="product-showcase container">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+    >
       <div
         class="product-card bg-gray-200 p-4 rounded cursor-pointer"
         v-for="(product, index) in products"
@@ -127,6 +129,36 @@ export default {
             "/images/product9_3.jpg",
           ],
         },
+        {
+          id: 10,
+          name: "Product 10",
+          price: 64.99,
+          images: [
+            "/images/product10.jpg",
+            "/images/product10_2.jpg",
+            "/images/product10_3.jpg",
+          ],
+        },
+        {
+          id: 11,
+          name: "Product 11",
+          price: 74.99,
+          images: [
+            "/images/product11.jpg",
+            "/images/product11_2.jpg",
+            "/images/product11_3.jpg",
+          ],
+        },
+        {
+          id: 12,
+          name: "Product 12",
+          price: 84.99,
+          images: [
+            "/images/product12.jpg",
+            "/images/product12_2.jpg",
+            "/images/product12_3.jpg",
+          ],
+        },
       ],
       isModalOpen: false,
       currentProductIndex: 0,
@@ -158,7 +190,5 @@ export default {
 }
 
 .product-card img {
-  width: 100%;
-  height: auto;
 }
 </style>
