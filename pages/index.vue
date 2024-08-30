@@ -23,5 +23,6 @@ export default {
 .showcase-container {
   display: flex;
   justify-content: center;
+  padding: 0px 1rem;
 }
 </style>
