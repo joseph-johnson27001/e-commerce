@@ -43,7 +43,7 @@ export default {
       products: [
         {
           id: 1,
-          name: "Product 1",
+          name: "Vivid Burst",
           price: 29.99,
           image: "/images/Trainer-Images/Trainer-colourful12.jpg",
           images: [
@@ -54,7 +54,7 @@ export default {
         },
         {
           id: 2,
-          name: "Product 2",
+          name: "Electric Blue",
           price: 39.99,
           image: "/images/Trainer-Images/Trainer-colourful1.jpg",
           images: [
@@ -65,7 +65,7 @@ export default {
         },
         {
           id: 3,
-          name: "Product 3",
+          name: "Neon Glare",
           price: 19.99,
           image: "/images/Trainer-Images/Trainer-colourful2.jpg",
           images: [
@@ -76,7 +76,7 @@ export default {
         },
         {
           id: 4,
-          name: "Product 4",
+          name: "Radiant Fusion",
           price: 49.99,
           image: "/images/Trainer-Images/Trainer-colourful3.jpg",
           images: [
@@ -87,7 +87,7 @@ export default {
         },
         {
           id: 5,
-          name: "Product 5",
+          name: "Luminous Spectrum",
           price: 59.99,
           image: "/images/Trainer-Images/Trainer-colourful4.jpg",
           images: [
@@ -98,7 +98,7 @@ export default {
         },
         {
           id: 6,
-          name: "Product 6",
+          name: "Bright Blaze",
           price: 24.99,
           image: "/images/Trainer-Images/Trainer-colourful13.jpg",
           images: [
@@ -109,7 +109,7 @@ export default {
         },
         {
           id: 7,
-          name: "Product 7",
+          name: "Dynamic Prism",
           price: 34.99,
           image: "/images/Trainer-Images/Trainer-colourful6.jpg",
           images: [
@@ -120,7 +120,7 @@ export default {
         },
         {
           id: 8,
-          name: "Product 8",
+          name: "Chromatic Flash",
           price: 44.99,
           image: "/images/Trainer-Images/Trainer-colourful7.jpg",
           images: [
@@ -131,7 +131,7 @@ export default {
         },
         {
           id: 9,
-          name: "Product 9",
+          name: "Prismatic Spark",
           price: 54.99,
           image: "/images/Trainer-Images/Trainer-colourful8.jpg",
           images: [
@@ -142,7 +142,7 @@ export default {
         },
         {
           id: 10,
-          name: "Product 10",
+          name: "Colorwave",
           price: 64.99,
           image: "/images/Trainer-Images/Trainer-colourful9.jpg",
           images: [
@@ -153,7 +153,7 @@ export default {
         },
         {
           id: 11,
-          name: "Product 11",
+          name: "Neon Fusion",
           price: 74.99,
           image: "/images/Trainer-Images/Trainer-colourful10.jpg",
           images: [
@@ -164,7 +164,7 @@ export default {
         },
         {
           id: 12,
-          name: "Product 12",
+          name: "Glow Spectrum",
           price: 84.99,
           image: "/images/Trainer-Images/Trainer-colourful11.jpg",
           images: [
