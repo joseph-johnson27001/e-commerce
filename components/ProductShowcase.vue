@@ -4,14 +4,16 @@
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
     >
       <div
-        class="product-card bg-gray-200 p-4 rounded cursor-pointer"
+        class="product-card bg-gray-200 rounded cursor-pointer"
         v-for="(product, index) in products"
         :key="product.id"
         @click="openModal(index)"
       >
-        <img :src="product.image" :alt="product.name" class="mb-2" />
-        <h3 class="text-lg font-semibold">{{ product.name }}</h3>
-        <p class="text-gray-700 mb-2">${{ product.price }}</p>
+        <img :src="product.image" :alt="product.name" />
+        <div class="product-card-content">
+          <h3 class="text-lg font-semibold">{{ product.name }}</h3>
+          <p class="text-gray-700 mb-2">${{ product.price }}</p>
+        </div>
       </div>
     </div>
 
@@ -98,7 +100,7 @@ export default {
           id: 6,
           name: "Product 6",
           price: 24.99,
-          image: "/images/Trainer-Images/Trainer-colourful5.jpg",
+          image: "/images/Trainer-Images/Trainer-colourful13.jpg",
           images: [
             "/images/product6.jpg",
             "/images/product6_2.jpg",
@@ -201,6 +203,18 @@ export default {
   padding: 2rem 0;
 }
 
+.product-card {
+  position: relative;
+  overflow: hidden;
+}
+
 .product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card-content {
+  padding: 0.5rem;
 }
 </style>
