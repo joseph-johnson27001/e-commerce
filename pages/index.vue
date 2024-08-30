@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container">
+    <div class="showcase-container container">
       <ProductShowcase />
     </div>
   </div>
@@ -20,5 +20,8 @@ export default {
 </script>
 
 <style scoped>
-/* Add specific styles for the index page here */
+.showcase-container {
+  display: flex;
+  justify-content: center;
+}
 </style>
