@@ -43,8 +43,9 @@ export default {
           id: 1,
           name: "Product 1",
           price: 29.99,
+          image: "/images/Trainer-Images/Trainer-colourful12.jpg",
           images: [
-            "/images/product1.jpg",
+            "/images/Trainer-Images/Trainer-colourful.jpg",
             "/images/product1_2.jpg",
             "/images/product1_3.jpg",
           ],
@@ -53,6 +54,7 @@ export default {
           id: 2,
           name: "Product 2",
           price: 39.99,
+          image: "/images/Trainer-Images/Trainer-colourful1.jpg",
           images: [
             "/images/product2.jpg",
             "/images/product2_2.jpg",
@@ -63,6 +65,7 @@ export default {
           id: 3,
           name: "Product 3",
           price: 19.99,
+          image: "/images/Trainer-Images/Trainer-colourful2.jpg",
           images: [
             "/images/product3.jpg",
             "/images/product3_2.jpg",
@@ -73,6 +76,7 @@ export default {
           id: 4,
           name: "Product 4",
           price: 49.99,
+          image: "/images/Trainer-Images/Trainer-colourful3.jpg",
           images: [
             "/images/product4.jpg",
             "/images/product4_2.jpg",
@@ -83,6 +87,7 @@ export default {
           id: 5,
           name: "Product 5",
           price: 59.99,
+          image: "/images/Trainer-Images/Trainer-colourful4.jpg",
           images: [
             "/images/product5.jpg",
             "/images/product5_2.jpg",
@@ -93,6 +98,7 @@ export default {
           id: 6,
           name: "Product 6",
           price: 24.99,
+          image: "/images/Trainer-Images/Trainer-colourful5.jpg",
           images: [
             "/images/product6.jpg",
             "/images/product6_2.jpg",
@@ -103,6 +109,7 @@ export default {
           id: 7,
           name: "Product 7",
           price: 34.99,
+          image: "/images/Trainer-Images/Trainer-colourful6.jpg",
           images: [
             "/images/product7.jpg",
             "/images/product7_2.jpg",
@@ -113,6 +120,7 @@ export default {
           id: 8,
           name: "Product 8",
           price: 44.99,
+          image: "/images/Trainer-Images/Trainer-colourful7.jpg",
           images: [
             "/images/product8.jpg",
             "/images/product8_2.jpg",
@@ -123,6 +131,7 @@ export default {
           id: 9,
           name: "Product 9",
           price: 54.99,
+          image: "/images/Trainer-Images/Trainer-colourful8.jpg",
           images: [
             "/images/product9.jpg",
             "/images/product9_2.jpg",
@@ -133,6 +142,7 @@ export default {
           id: 10,
           name: "Product 10",
           price: 64.99,
+          image: "/images/Trainer-Images/Trainer-colourful9.jpg",
           images: [
             "/images/product10.jpg",
             "/images/product10_2.jpg",
@@ -143,6 +153,7 @@ export default {
           id: 11,
           name: "Product 11",
           price: 74.99,
+          image: "/images/Trainer-Images/Trainer-colourful10.jpg",
           images: [
             "/images/product11.jpg",
             "/images/product11_2.jpg",
@@ -153,6 +164,7 @@ export default {
           id: 12,
           name: "Product 12",
           price: 84.99,
+          image: "/images/Trainer-Images/Trainer-colourful11.jpg",
           images: [
             "/images/product12.jpg",
             "/images/product12_2.jpg",
