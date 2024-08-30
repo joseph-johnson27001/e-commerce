@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="showcase-container container">
+    <div class="showcase-container">
       <ProductShowcase />
     </div>
   </div>
