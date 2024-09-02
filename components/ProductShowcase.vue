@@ -48,8 +48,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful12.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful12.jpg",
-            "/images/product1_2.jpg",
-            "/images/product1_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful13.jpg",
+            "/images/Trainer-Images/Trainer-colourful1.jpg",
           ],
         },
         {
@@ -59,8 +59,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful1.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful1.jpg",
-            "/images/product2_2.jpg",
-            "/images/product2_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful2.jpg",
+            "/images/Trainer-Images/Trainer-colourful3.jpg",
           ],
         },
         {
@@ -70,8 +70,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful2.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful2.jpg",
-            "/images/product3_2.jpg",
-            "/images/product3_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful4.jpg",
+            "/images/Trainer-Images/Trainer-colourful5.jpg",
           ],
         },
         {
@@ -81,8 +81,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful3.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful3.jpg",
-            "/images/product4_2.jpg",
-            "/images/product4_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful6.jpg",
+            "/images/Trainer-Images/Trainer-colourful7.jpg",
           ],
         },
         {
@@ -92,8 +92,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful4.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful4.jpg",
-            "/images/product5_2.jpg",
-            "/images/product5_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful8.jpg",
+            "/images/Trainer-Images/Trainer-colourful9.jpg",
           ],
         },
         {
@@ -103,8 +103,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful13.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful13.jpg",
-            "/images/product6_2.jpg",
-            "/images/product6_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful10.jpg",
+            "/images/Trainer-Images/Trainer-colourful11.jpg",
           ],
         },
         {
@@ -114,8 +114,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful6.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful6.jpg",
-            "/images/product7_2.jpg",
-            "/images/product7_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful12.jpg",
+            "/images/Trainer-Images/Trainer-colourful1.jpg",
           ],
         },
         {
@@ -125,8 +125,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful7.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful7.jpg",
-            "/images/product8_2.jpg",
-            "/images/product8_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful8.jpg",
+            "/images/Trainer-Images/Trainer-colourful2.jpg",
           ],
         },
         {
@@ -136,8 +136,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful8.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful8.jpg",
-            "/images/product9_2.jpg",
-            "/images/product9_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful9.jpg",
+            "/images/Trainer-Images/Trainer-colourful3.jpg",
           ],
         },
         {
@@ -147,8 +147,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful9.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful9.jpg",
-            "/images/product10_2.jpg",
-            "/images/product10_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful10.jpg",
+            "/images/Trainer-Images/Trainer-colourful11.jpg",
           ],
         },
         {
@@ -158,8 +158,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful10.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful10.jpg",
-            "/images/product11_2.jpg",
-            "/images/product11_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful11.jpg",
+            "/images/Trainer-Images/Trainer-colourful12.jpg",
           ],
         },
         {
@@ -169,8 +169,8 @@ export default {
           image: "/images/Trainer-Images/Trainer-colourful11.jpg",
           images: [
             "/images/Trainer-Images/Trainer-colourful11.jpg",
-            "/images/product12_2.jpg",
-            "/images/product12_3.jpg",
+            "/images/Trainer-Images/Trainer-colourful13.jpg",
+            "/images/Trainer-Images/Trainer-colourful4.jpg",
           ],
         },
       ],
