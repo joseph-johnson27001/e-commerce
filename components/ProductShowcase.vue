@@ -47,7 +47,7 @@ export default {
           price: 29.99,
           image: "/images/Trainer-Images/Trainer-colourful12.jpg",
           images: [
-            "/images/Trainer-Images/Trainer-colourful.jpg",
+            "/images/Trainer-Images/Trainer-colourful12.jpg",
             "/images/product1_2.jpg",
             "/images/product1_3.jpg",
           ],
@@ -58,7 +58,7 @@ export default {
           price: 39.99,
           image: "/images/Trainer-Images/Trainer-colourful1.jpg",
           images: [
-            "/images/product2.jpg",
+            "/images/Trainer-Images/Trainer-colourful1.jpg",
             "/images/product2_2.jpg",
             "/images/product2_3.jpg",
           ],
@@ -69,7 +69,7 @@ export default {
           price: 19.99,
           image: "/images/Trainer-Images/Trainer-colourful2.jpg",
           images: [
-            "/images/product3.jpg",
+            "/images/Trainer-Images/Trainer-colourful2.jpg",
             "/images/product3_2.jpg",
             "/images/product3_3.jpg",
           ],
@@ -80,7 +80,7 @@ export default {
           price: 49.99,
           image: "/images/Trainer-Images/Trainer-colourful3.jpg",
           images: [
-            "/images/product4.jpg",
+            "/images/Trainer-Images/Trainer-colourful3.jpg",
             "/images/product4_2.jpg",
             "/images/product4_3.jpg",
           ],
@@ -91,7 +91,7 @@ export default {
           price: 59.99,
           image: "/images/Trainer-Images/Trainer-colourful4.jpg",
           images: [
-            "/images/product5.jpg",
+            "/images/Trainer-Images/Trainer-colourful4.jpg",
             "/images/product5_2.jpg",
             "/images/product5_3.jpg",
           ],
@@ -102,7 +102,7 @@ export default {
           price: 24.99,
           image: "/images/Trainer-Images/Trainer-colourful13.jpg",
           images: [
-            "/images/product6.jpg",
+            "/images/Trainer-Images/Trainer-colourful13.jpg",
             "/images/product6_2.jpg",
             "/images/product6_3.jpg",
           ],
@@ -113,7 +113,7 @@ export default {
           price: 34.99,
           image: "/images/Trainer-Images/Trainer-colourful6.jpg",
           images: [
-            "/images/product7.jpg",
+            "/images/Trainer-Images/Trainer-colourful6.jpg",
             "/images/product7_2.jpg",
             "/images/product7_3.jpg",
           ],
@@ -124,7 +124,7 @@ export default {
           price: 44.99,
           image: "/images/Trainer-Images/Trainer-colourful7.jpg",
           images: [
-            "/images/product8.jpg",
+            "/images/Trainer-Images/Trainer-colourful7.jpg",
             "/images/product8_2.jpg",
             "/images/product8_3.jpg",
           ],
@@ -135,7 +135,7 @@ export default {
           price: 54.99,
           image: "/images/Trainer-Images/Trainer-colourful8.jpg",
           images: [
-            "/images/product9.jpg",
+            "/images/Trainer-Images/Trainer-colourful8.jpg",
             "/images/product9_2.jpg",
             "/images/product9_3.jpg",
           ],
@@ -146,7 +146,7 @@ export default {
           price: 64.99,
           image: "/images/Trainer-Images/Trainer-colourful9.jpg",
           images: [
-            "/images/product10.jpg",
+            "/images/Trainer-Images/Trainer-colourful9.jpg",
             "/images/product10_2.jpg",
             "/images/product10_3.jpg",
           ],
@@ -157,7 +157,7 @@ export default {
           price: 74.99,
           image: "/images/Trainer-Images/Trainer-colourful10.jpg",
           images: [
-            "/images/product11.jpg",
+            "/images/Trainer-Images/Trainer-colourful10.jpg",
             "/images/product11_2.jpg",
             "/images/product11_3.jpg",
           ],
@@ -168,7 +168,7 @@ export default {
           price: 84.99,
           image: "/images/Trainer-Images/Trainer-colourful11.jpg",
           images: [
-            "/images/product12.jpg",
+            "/images/Trainer-Images/Trainer-colourful11.jpg",
             "/images/product12_2.jpg",
             "/images/product12_3.jpg",
           ],
