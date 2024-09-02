@@ -6,6 +6,14 @@
     <div
       class="modal-content bg-white p-6 rounded-lg relative flex flex-col w-11/12 max-w-md"
     >
+      <!-- Close Button -->
+      <button
+        @click="closeModal"
+        class="absolute top-2 right-2 text-gray-700 hover:text-white bg-gray-300 hover:bg-gray-600 rounded-full w-8 h-8 flex items-center justify-center"
+      >
+        &times;
+      </button>
+
       <!-- Images Section -->
       <div class="flex">
         <!-- Main Product Image -->
