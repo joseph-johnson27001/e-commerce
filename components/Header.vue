@@ -5,7 +5,7 @@
       <nav class="flex space-x-4 items-center">
         <nuxt-link to="/" class="flex items-center px-3 py-2 rounded">
           <img
-            src="/images/shoe-favicon.ico"
+            src="/images/shoe-icon.png"
             alt="Home"
             class="w-6 h-6 object-contain"
           />
