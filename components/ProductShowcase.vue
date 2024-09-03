@@ -308,4 +308,10 @@ export default {
     font-size: 0.875rem;
   }
 }
+
+@media (max-width: 640px) {
+  .product-card-img-wrapper {
+    padding-top: 100%;
+  }
+}
 </style>
