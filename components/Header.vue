@@ -10,41 +10,14 @@
             class="w-6 h-6 object-contain"
           />
         </nuxt-link>
+
         <nuxt-link
-          to="/"
+          v-for="(link, index) in navLinks"
+          :key="index"
+          :to="link.url"
           class="nav-link flex items-center px-3 py-2 rounded text-sm"
         >
-          Shop
-        </nuxt-link>
-        <nuxt-link
-          to="/"
-          class="nav-link flex items-center px-3 py-2 rounded text-sm"
-        >
-          New Arrivals
-        </nuxt-link>
-        <nuxt-link
-          to="/"
-          class="nav-link flex items-center px-3 py-2 rounded text-sm"
-        >
-          Best Sellers
-        </nuxt-link>
-        <nuxt-link
-          to="/"
-          class="nav-link flex items-center px-3 py-2 rounded text-sm"
-        >
-          Sales
-        </nuxt-link>
-        <nuxt-link
-          to="/"
-          class="nav-link flex items-center px-3 py-2 rounded text-sm"
-        >
-          About
-        </nuxt-link>
-        <nuxt-link
-          to="/"
-          class="nav-link flex items-center px-3 py-2 rounded text-sm"
-        >
-          Contact Us
+          {{ link.text }}
         </nuxt-link>
       </nav>
     </div>
@@ -54,6 +27,18 @@
 <script>
 export default {
   name: "Header",
+  data() {
+    return {
+      navLinks: [
+        { text: "Shop", url: "/" },
+        { text: "New Arrivals", url: "/" },
+        { text: "Best Sellers", url: "/" },
+        { text: "Sales", url: "/" },
+        { text: "Blog", url: "/" },
+        { text: "FAQ", url: "/" },
+      ],
+    };
+  },
 };
 </script>
 
