@@ -1,6 +1,6 @@
 <template>
   <section
-    class="hero-section bg-cover bg-center h-48 flex items-center justify-center text-center"
+    class="hero-section bg-cover bg-center h-56 flex items-center justify-center text-center"
   >
     <div class="hero-content max-w-xl">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 hero-heading">
