@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HeroSection />
     <div class="showcase-container">
       <ProductShowcase />
     </div>
