@@ -2,7 +2,7 @@
   <header class="text-black p-1">
     <div class="nav-container mx-auto flex justify-center">
       <!-- Navigation Links -->
-      <nav class="flex space-x-4 items-center">
+      <nav class="flex space-x-4 items-container">
         <nuxt-link to="/" class="flex items-center px-3 py-2 rounded">
           <img
             src="/images/shoe-icon.png"
@@ -63,6 +63,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 nav img {
@@ -77,5 +78,10 @@ nav img {
 
 .nav-link:hover {
   color: #f87171;
+}
+
+.items-container {
+  width: 100%;
+  justify-content: space-between;
 }
 </style>
