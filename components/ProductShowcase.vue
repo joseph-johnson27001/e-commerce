@@ -51,6 +51,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful13.jpg",
             "/images/Trainer-Images/Trainer-colourful1.jpg",
           ],
+          description:
+            "Step out in style with these vibrant trainers, perfect for adding a pop of color to any outfit.",
         },
         {
           id: 2,
@@ -62,6 +64,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful2.jpg",
             "/images/Trainer-Images/Trainer-colourful3.jpg",
           ],
+          description:
+            "Energize your stride with the striking Electric Blue trainers, designed for those who love to stand out.",
         },
         {
           id: 3,
@@ -73,6 +77,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful4.jpg",
             "/images/Trainer-Images/Trainer-colourful5.jpg",
           ],
+          description:
+            "Light up your look with Neon Glare trainers, a bright and bold choice for everyday wear.",
         },
         {
           id: 4,
@@ -84,6 +90,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful6.jpg",
             "/images/Trainer-Images/Trainer-colourful7.jpg",
           ],
+          description:
+            "Experience the perfect blend of comfort and color with the Radiant Fusion trainers.",
         },
         {
           id: 5,
@@ -95,6 +103,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful8.jpg",
             "/images/Trainer-Images/Trainer-colourful9.jpg",
           ],
+          description:
+            "Shine with every step in Luminous Spectrum trainers, where sleek design meets radiant hues.",
         },
         {
           id: 6,
@@ -106,6 +116,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful10.jpg",
             "/images/Trainer-Images/Trainer-colourful11.jpg",
           ],
+          description:
+            "Ignite your style with Bright Blaze trainers, featuring a fiery mix of colors for a bold look.",
         },
         {
           id: 7,
@@ -117,6 +129,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful12.jpg",
             "/images/Trainer-Images/Trainer-colourful1.jpg",
           ],
+          description:
+            "Add a touch of modern flair to your wardrobe with the Dynamic Prism trainers, ideal for any occasion.",
         },
         {
           id: 8,
@@ -128,6 +142,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful8.jpg",
             "/images/Trainer-Images/Trainer-colourful2.jpg",
           ],
+          description:
+            "Make a statement with Chromatic Flash trainers, where vibrant tones meet athletic comfort.",
         },
         {
           id: 9,
@@ -139,6 +155,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful9.jpg",
             "/images/Trainer-Images/Trainer-colourful3.jpg",
           ],
+          description:
+            "Spark your style with Prismatic Spark trainers, crafted for those who love to shine.",
         },
         {
           id: 10,
@@ -150,6 +168,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful10.jpg",
             "/images/Trainer-Images/Trainer-colourful11.jpg",
           ],
+          description:
+            "Ride the wave of vibrant fashion with Colorwave trainers, your go-to for colorful comfort.",
         },
         {
           id: 11,
@@ -161,6 +181,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful11.jpg",
             "/images/Trainer-Images/Trainer-colourful12.jpg",
           ],
+          description:
+            "Fuse your fashion with a burst of color in Neon Fusion trainers, perfect for the bold and the brave.",
         },
         {
           id: 12,
@@ -172,6 +194,8 @@ export default {
             "/images/Trainer-Images/Trainer-colourful13.jpg",
             "/images/Trainer-Images/Trainer-colourful4.jpg",
           ],
+          description:
+            "Glow up your sneaker game with Glow Spectrum trainers, designed to dazzle with every step.",
         },
       ],
       isModalOpen: false,
