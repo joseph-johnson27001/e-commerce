@@ -228,6 +228,11 @@ export default {
 </script>
 
 <style scoped>
+.product-showcase {
+  padding: 2rem 0;
+  padding-top: 0;
+}
+
 .product-card {
   background-color: white;
   border-radius: 10px;

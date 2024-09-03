@@ -9,7 +9,7 @@
       <!-- Close Button -->
       <button
         @click="closeModal"
-        class="absolute top-2 right-2 text-gray-700 hover:text-white bg-gray-300 hover:bg-gray-600 rounded-full w-8 h-8 flex items-center justify-center"
+        class="absolute top-2 right-2 text-gray-700 hover:text-white bg-gray-300 hover:bg-gray-600 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300"
       >
         &times;
       </button>
@@ -21,7 +21,7 @@
           <img
             :src="currentImage"
             :alt="product.name"
-            class="w-64 h-64 object-cover"
+            class="w-64 h-64 object-cover border border-gray-300 rounded-lg shadow-md"
           />
         </div>
 
@@ -32,7 +32,7 @@
             :key="index"
             :src="image"
             :alt="'Thumbnail ' + index"
-            class="w-16 h-16 object-cover cursor-pointer border-2 border-gray-300 hover:border-blue-500"
+            class="w-16 h-16 object-cover cursor-pointer border-2 border-gray-300 hover:border-blue-500 rounded-lg transition-colors duration-300"
             @click="setImage(index)"
           />
         </div>
@@ -40,8 +40,8 @@
 
       <!-- Content Section -->
       <div class="mt-4 w-full">
-        <h3 class="text-2xl font-semibold mb-2">{{ product.name }}</h3>
-        <p class="text-xl text-gray-700 mb-4">${{ product.price }}</p>
+        <h3 class="text-2xl font-bold mb-2">{{ product.name }}</h3>
+        <p class="text-lg text-gray-800 mb-4">${{ product.price }}</p>
         <p class="text-gray-600">{{ product.description }}</p>
       </div>
 
@@ -49,13 +49,13 @@
       <div class="mt-4 w-full flex justify-between">
         <button
           @click="prevProduct"
-          class="bg-blue-500 text-white px-4 py-2 rounded"
+          class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
         >
           Previous
         </button>
         <button
           @click="nextProduct"
-          class="bg-blue-500 text-white px-4 py-2 rounded"
+          class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
         >
           Next
         </button>
@@ -114,24 +114,29 @@ export default {
 
 <style scoped>
 .modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
 }
 
 .modal-content {
   background: #fff;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 0.5rem;
   position: relative;
   display: flex;
+  flex-direction: column;
   width: 90%;
   max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  background: linear-gradient(45deg, #1e3a8a, #f87171);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 button {

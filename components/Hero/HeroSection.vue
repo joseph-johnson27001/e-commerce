@@ -6,7 +6,7 @@
       <h1 class="text-4xl md:text-6xl font-bold mb-4 hero-heading">
         <span class="text-gradient">Step Up</span> Your Game
       </h1>
-      <p class="text-lg md:text-xl mb-6 text-gray-700">
+      <p class="mb-6 sub-heading">
         Find the perfect trainers to elevate your style and performance.
       </p>
     </div>
@@ -33,5 +33,11 @@ export default {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+.sub-heading {
+  color: #888;
+  line-height: 1.5;
+  font-size: 0.875rem;
 }
 </style>

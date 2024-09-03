@@ -10,22 +10,40 @@
             class="w-6 h-6 object-contain"
           />
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           Shop
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           New Arrivals
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           Best Sellers
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           Sales
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           About
         </nuxt-link>
-        <nuxt-link to="/" class="flex items-center px-3 py-2 rounded text-sm">
+        <nuxt-link
+          to="/"
+          class="nav-link flex items-center px-3 py-2 rounded text-sm"
+        >
           Contact Us
         </nuxt-link>
       </nav>
@@ -50,5 +68,14 @@ export default {
 nav img {
   display: block;
   margin-bottom: 5px;
+}
+
+.nav-link {
+  color: #000;
+  transition: color 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.nav-link:hover {
+  color: #f87171;
 }
 </style>
