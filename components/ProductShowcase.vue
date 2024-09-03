@@ -1,18 +1,23 @@
 <template>
   <section class="product-showcase container">
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
     >
       <div
-        class="product-card bg-gray-200 rounded cursor-pointer"
+        class="product-card"
         v-for="(product, index) in products"
         :key="product.id"
         @click="openModal(index)"
       >
-        <img :src="product.image" :alt="product.name" />
+        <div class="product-card-img-wrapper">
+          <img :src="product.image" :alt="product.name" />
+        </div>
         <div class="product-card-content">
-          <h3 class="text-lg font-semibold">{{ product.name }}</h3>
-          <p class="text-gray-700 mb-2">${{ product.price }}</p>
+          <h3 class="product-card-eyebrow">{{ product.name }}</h3>
+          <div class="product-card-header">
+            <a href="#" class="product-card-link">£{{ product.price }}</a>
+          </div>
+          <p class="product-card-desc">{{ product.description }}</p>
         </div>
       </div>
     </div>
@@ -228,17 +233,79 @@ export default {
 }
 
 .product-card {
-  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
-.product-card img {
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-card-img-wrapper {
+  position: relative;
+  padding-top: 125%;
+  background-color: #f5f5f7;
+}
+
+.product-card-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover;
 }
 
 .product-card-content {
-  padding: 0.5rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.product-card-eyebrow {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.product-card-header {
+  margin-bottom: 0.5rem;
+}
+
+.product-card-link {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+}
+
+.product-card-desc {
+  font-size: 0.875rem;
+  color: #888;
+  line-height: 1.5;
+}
+
+@media (min-width: 640px) {
+  .product-card-content {
+    padding: 1.5rem;
+  }
+
+  .product-card-eyebrow {
+    font-size: 0.75rem;
+  }
+
+  .product-card-link {
+    font-size: 1.125rem;
+  }
+
+  .product-card-desc {
+    font-size: 0.875rem;
+  }
 }
 </style>
