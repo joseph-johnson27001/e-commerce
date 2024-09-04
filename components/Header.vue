@@ -1,5 +1,5 @@
 <template>
-  <header class="text-black p-1">
+  <header class="text-black p-2">
     <div class="nav-container mx-auto flex justify-center">
       <!-- Navigation Links -->
       <nav class="flex space-x-4 items-container">

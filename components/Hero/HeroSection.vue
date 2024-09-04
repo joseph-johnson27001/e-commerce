@@ -1,6 +1,6 @@
 <template>
   <section
-    class="hero-section bg-cover bg-center h-56 flex items-center justify-center text-center"
+    class="hero-section bg-cover bg-center h-64 flex items-center justify-center text-center"
   >
     <div class="hero-content max-w-xl">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 hero-heading">
@@ -38,6 +38,7 @@ export default {
 .sub-heading {
   color: #888;
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
 }
 </style>

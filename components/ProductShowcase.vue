@@ -281,7 +281,7 @@ export default {
 
 .product-card-link {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #333;
   text-decoration: none;
 }
