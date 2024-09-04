@@ -76,9 +76,9 @@ export default {
           id: 3,
           name: "Neon Glare",
           price: 19.99,
-          image: "/images/Trainer-Images/Trainer-colourful2.jpg",
+          image: "/images/Trainer-Images/Trainer-colourful8.jpg",
           images: [
-            "/images/Trainer-Images/Trainer-colourful2.jpg",
+            "/images/Trainer-Images/Trainer-colourful8.jpg",
             "/images/Trainer-Images/Trainer-colourful4.jpg",
             "/images/Trainer-Images/Trainer-colourful5.jpg",
           ],
@@ -251,6 +251,7 @@ export default {
   position: relative;
   padding-top: 125%;
   background-color: #f5f5f7;
+  border-bottom: 1px solid black;
 }
 
 .product-card-img-wrapper img {

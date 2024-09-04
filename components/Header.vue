@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .nav-container {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
