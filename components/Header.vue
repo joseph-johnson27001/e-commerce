@@ -23,7 +23,10 @@
       </nav>
 
       <!-- Burger Menu Button - Visible on smaller viewports -->
-      <nuxt-link to="/" class="md:hidden flex items-center px-3 py-2">
+      <nuxt-link
+        to="/"
+        class="md:hidden flex items-center px-3 py-2 justify-end"
+      >
         <img
           src="/images/shoe-icon.png"
           alt="Home"
@@ -55,7 +58,7 @@
           v-for="(link, index) in navLinks"
           :key="index"
           :to="link.url"
-          class="nav-link flex items-center px-4 py-2 text-sm"
+          class="nav-link flex items-center px-4 py-2 text-sm justify-center"
         >
           {{ link.text }}
         </nuxt-link>
