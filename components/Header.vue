@@ -26,6 +26,7 @@
       <nuxt-link
         to="/"
         class="md:hidden flex items-center px-3 py-2 justify-end"
+        style="padding-top: 0px"
       >
         <img
           src="/images/shoe-icon.png"
@@ -136,7 +137,7 @@ nav img {
 }
 
 .py-4 {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1rem;
 }
 
