@@ -1,5 +1,5 @@
 <template>
-  <header class="text-black p-2">
+  <header class="text-black p-2 relative">
     <!-- HIDE THIS SECTION ON SMALLER VIEWPORTS -->
     <div class="nav-container mx-auto flex justify-between lg:justify-center">
       <!-- Navigation Links - Visible on larger viewports -->
@@ -52,8 +52,11 @@
     </div>
 
     <!-- Dropdown for smaller viewports -->
-    <div v-if="menuOpen" class="md:hidden mt-2">
-      <nav class="flex flex-col space-y-2">
+    <div
+      v-if="menuOpen"
+      class="md:hidden absolute top-15 left-0 right-0 z-50 burger-dropdown"
+    >
+      <nav class="flex flex-col space-y-2 py-4">
         <nuxt-link
           v-for="(link, index) in navLinks"
           :key="index"
@@ -117,5 +120,27 @@ nav img {
 .items-container {
   width: 100%;
   justify-content: space-between;
+}
+
+/* Dropdown Overlay */
+.absolute {
+  position: absolute;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.burger-dropdown {
+  background-color: #f5f5f7;
 }
 </style>
